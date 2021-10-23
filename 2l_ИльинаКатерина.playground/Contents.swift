@@ -52,3 +52,6 @@ print(fibonacciArray(50))
 
 
 var simpleArray: Array<Int> = []
+func simpleNumbers(simpleArray: [Int]) -> [Int] {
+    
+}
