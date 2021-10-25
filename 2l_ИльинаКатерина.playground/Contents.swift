@@ -39,19 +39,14 @@ print(toDelete)
   
 //Написать функцию, которая добавляет в массив новое число Фибоначчи, и добавить при помощи нее 50 элементов.
 
-func fibonacciArray(_ n: Int) -> [Double] {
-    var fibonacci: [Double] = [1, 2]
+func fibonachiArray(_ n: Int) -> [Double] {
+    var fibonachi: [Double] = [1, 2]
     (2...n).forEach{ i in
-        fibonacci.append(fibonacci[i - 1] + fibonacci[i - 2])
+        fibonachi.append(fibonachi[i - 1] + fibonachi[i - 2])
     }
-    return fibonacci
+    return fibonachi
 }
-print(fibonacciArray(50))
+print(fibonachiArray(50))
 
 //Заполнить массив из 100 элементов различными простыми числами. Натуральное число, большее единицы, называется простым, если оно делится только на себя и на единицу.
 
-
-var simpleArray: Array<Int> = []
-func simpleNumbers(simpleArray: [Int]) -> [Int] {
-    
-}
